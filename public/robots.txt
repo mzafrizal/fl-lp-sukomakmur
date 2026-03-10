@@ -1,0 +1,9 @@
+# Robots.txt for Desa Sukomakmur
+# Generated manually — akan di-override oleh next-sitemap saat build
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://sukomakmur.desa.id/sitemap.xml
