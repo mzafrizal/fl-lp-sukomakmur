@@ -71,19 +71,22 @@ export default function Navbar() {
       {/* Mobile menu */}
       {mobileOpen && (
         <div
-          className="md:hidden border-t"
+          className="md:hidden absolute top-16 left-0 right-0 border-t shadow-2xl"
           style={{
-            background: "rgba(15,23,42,0.97)",
+            background: "rgba(15,23,42,0.98)",
+            backdropFilter: "blur(16px)",
             borderColor: "rgba(255,255,255,0.08)",
+            animation: "slideDown 0.3s ease-out forwards",
+            transformOrigin: "top"
           }}
         >
-          <ul className="max-w-7xl mx-auto px-4 py-3 flex flex-col gap-1">
+          <ul className="max-w-7xl mx-auto px-4 py-4 flex flex-col gap-2">
             {navLinks.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setMobileOpen(false)}
-                  className="block px-4 py-3 rounded-lg text-sm font-medium text-white/80 hover:text-white hover:bg-white/10 transition-all"
+                  className="block px-4 py-3 rounded-lg text-base font-medium text-white/80 hover:text-white hover:bg-white/10 transition-all border border-transparent hover:border-white/10"
                 >
                   {link.label}
                 </a>

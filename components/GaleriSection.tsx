@@ -5,106 +5,33 @@ import { Camera } from "lucide-react";
 import Image from "next/image";
 
 const galeriPhotos = [
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.24.58 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 1",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.24.58 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 2",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.24 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 3",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 4",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM (2).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 5",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 6",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.26 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 7",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.26 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 8",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.37 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 9",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.37 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 10",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.37 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 11",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.38 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 12",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.38 PM (2).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 13",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.38 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 14",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 15",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM (2).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 16",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 17",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.40 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 18",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.40 PM (2).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 19",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.40 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 20",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.41 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 21",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.41 PM (2).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 22",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.41 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 23",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.42 PM (1).jpeg",
-    alt: "Kegiatan Desa Sukomakmur 24",
-  },
-  {
-    src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.42 PM.jpeg",
-    alt: "Kegiatan Desa Sukomakmur 25",
-  },
+  { src: "/assets/galeri/DJI_0178.JPG", alt: "Kegiatan Desa Sukomakmur 1" },
+  { src: "/assets/galeri/DJI_0182.JPG", alt: "Kegiatan Desa Sukomakmur 2" },
+  { src: "/assets/galeri/DJI_0191.JPG", alt: "Kegiatan Desa Sukomakmur 3" },
+  { src: "/assets/galeri/DJI_0192.JPG", alt: "Kegiatan Desa Sukomakmur 4" },
+  { src: "/assets/galeri/DJI_0197.JPG", alt: "Kegiatan Desa Sukomakmur 5" },
+  { src: "/assets/galeri/DJI_0203.JPG", alt: "Kegiatan Desa Sukomakmur 6" },
+  { src: "/assets/galeri/PXL_20260216_102142963.jpg", alt: "Kegiatan Desa Sukomakmur 7" },
+  { src: "/assets/galeri/PXL_20260312_022211182.jpg", alt: "Kegiatan Desa Sukomakmur 8" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.24.58 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 9" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.24.58 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 10" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 11" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM (2).jpeg", alt: "Kegiatan Desa Sukomakmur 12" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.25 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 13" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.26 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 14" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.26 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 15" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.30.37 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 16" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.37 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 17" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.37 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 18" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.38 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 19" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.38 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 20" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 21" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM (2).jpeg", alt: "Kegiatan Desa Sukomakmur 22" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.39 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 23" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.40 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 24" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.41 PM (1).jpeg", alt: "Kegiatan Desa Sukomakmur 25" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.41 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 26" },
+  { src: "/assets/galeri/WhatsApp Image 2026-03-10 at 1.35.42 PM.jpeg", alt: "Kegiatan Desa Sukomakmur 27" },
 ];
 
 export default function GaleriSection() {

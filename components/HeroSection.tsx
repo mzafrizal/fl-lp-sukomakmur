@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       id="beranda"
-      className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 overflow-hidden"
+      className="relative min-h-screen flex flex-col items-center justify-center text-center px-4 pt-24 pb-12 overflow-hidden"
     >
       {/* Real background image */}
       <Image

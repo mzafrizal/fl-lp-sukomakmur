@@ -15,12 +15,12 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-8 mb-10">
           {/* Brand */}
-          <div>
-            <div className="flex items-center gap-2.5 text-emerald-400 font-bold text-lg mb-2">
+          <div className="w-full md:w-auto text-center md:text-left">
+            <div className="flex items-center justify-center md:justify-start gap-2.5 text-emerald-400 font-bold text-lg mb-2">
               <Leaf className="w-5 h-5" />
               Desa Sukomakmur
             </div>
-            <p className="text-slate-500 text-sm max-w-xs">
+            <p className="text-slate-500 text-sm max-w-xs mx-auto md:mx-0">
               Kecamatan Kajoran, Kabupaten Magelang, Jawa Tengah
             </p>
           </div>
