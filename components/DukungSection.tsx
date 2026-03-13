@@ -13,12 +13,12 @@ export default function DukungSection() {
     <section className="bg-slate-50 py-16 px-4 border-t border-slate-200">
       <div className="max-w-5xl mx-auto">
         {/* Label */}
-        <ScrollReveal variant="fade-up" className="flex items-center gap-4 mb-10">
-          <div className="flex-1 h-px bg-slate-200" />
-          <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest whitespace-nowrap">
-            Didukung &amp; Diselenggarakan Oleh STAI Syubbanul Wathon Magelang
+        <ScrollReveal variant="fade-up" className="flex flex-col sm:flex-row items-center gap-4 mb-10">
+          <div className="w-16 sm:flex-1 h-px bg-slate-200" />
+          <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest text-center px-4 sm:px-0 leading-relaxed max-w-sm sm:max-w-none">
+            Didukung &amp; Diselenggarakan Oleh<br className="sm:hidden" /> STAI Syubbanul Wathon Magelang
           </p>
-          <div className="flex-1 h-px bg-slate-200" />
+          <div className="w-16 sm:flex-1 h-px bg-slate-200" />
         </ScrollReveal>
 
         {/* Logo grid */}
