@@ -16,7 +16,7 @@ export default function DukungSection() {
         <ScrollReveal variant="fade-up" className="flex flex-col sm:flex-row items-center gap-4 mb-10">
           <div className="w-16 sm:flex-1 h-px bg-slate-200" />
           <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest text-center px-4 sm:px-0 leading-relaxed max-w-sm sm:max-w-none">
-            Didukung &amp; Diselenggarakan Oleh<br className="sm:hidden" /> STAI Syubbanul Wathon Magelang
+            Didukung &amp; Diselenggarakan Oleh<br className="sm:hidden" /> Institut Agama Islam Syubbanul Wathon Magelang
           </p>
           <div className="w-16 sm:flex-1 h-px bg-slate-200" />
         </ScrollReveal>

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Image from "next/image";
 import { Leaf, Compass, Menu, X } from "lucide-react";
 import { navLinks } from "@/lib/navLinks";
 
@@ -28,11 +29,14 @@ export default function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#beranda" className="flex items-center gap-2.5 group">
-          <div
-            className="w-8 h-8 rounded-lg flex items-center justify-center"
-            style={{ background: "linear-gradient(135deg, #059669, #047857)" }}
-          >
-            <Leaf className="w-4 h-4 text-white" />
+          <div className="relative w-8 h-8 sm:w-10 sm:h-10 flex-shrink-0">
+            <Image
+              src="/assets/navbar-logo.png"
+              alt="Logo Sukomakmur"
+              fill
+              className="object-contain"
+              sizes="(max-width: 768px) 32px, 40px"
+            />
           </div>
           <span className="font-extrabold text-white text-base tracking-tight leading-tight">
             Desa

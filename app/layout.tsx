@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 // ─── SEO Metadata ─────────────────────────────────────────────────────────────
 // Ganti DOMAIN_ANDA dengan domain produksi Anda, misal: https://sukomakmur.desa.id
-const SITE_URL = "https://sukomakmur.desa.id";
+const SITE_URL = "https://desa-sukomakmur.vercel.app";
 
 export const metadata: Metadata = {
   // Title template: halaman spesifik bisa override dengan title sendiri

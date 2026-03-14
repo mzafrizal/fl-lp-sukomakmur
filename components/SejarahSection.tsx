@@ -110,7 +110,7 @@ export default function SejarahSection() {
                       </div>
                     </div>
                     {/* Card */}
-                    <div className="flex-1 bg-white/10 border border-white/15 rounded-2xl p-4 hover:bg-white/15 transition-colors duration-200">
+                    <div className="flex-1 bg-white/10 border border-white/15 rounded-2xl p-4 hover:bg-white/15 transition-colors duration-200 mb-6">
                       <span
                         className="inline-block text-xs font-extrabold uppercase tracking-widest px-2.5 py-1 rounded-full mb-2"
                         style={{ background: item.color, color: "white" }}

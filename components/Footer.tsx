@@ -43,7 +43,7 @@ export default function Footer() {
         {/* Logo strip */}
         <div className="border-t border-slate-800 pt-8 mb-6">
           <p className="text-slate-600 text-xs uppercase tracking-widest text-center mb-5">
-            Didukung Oleh STAI Syubbanul Wathon Magelang
+            Didukung Oleh Institut Agama Islam Syubbanul Wathon Magelang
           </p>
           <div className="flex flex-wrap items-center justify-center gap-6 md:gap-10">
             {logos.map((logo, i) => (
@@ -62,7 +62,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <div className="border-t border-slate-800 pt-6 text-center text-slate-600 text-xs">
-          © {new Date().getFullYear()} Profil Desa Sukomakmur · Program KKN STAI Syubbanul Wathon Magelang. Hak cipta dilindungi.
+          © {new Date().getFullYear()} Profil Desa Sukomakmur · Program KKN Institut Agama Islam Syubbanul Wathon Magelang. Hak cipta dilindungi.
         </div>
       </div>
     </footer>

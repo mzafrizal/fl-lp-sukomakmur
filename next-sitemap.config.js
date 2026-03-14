@@ -1,7 +1,7 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
   // Ganti dengan domain produksi Anda
-  siteUrl: process.env.SITE_URL || "https://sukomakmur.desa.id",
+  siteUrl: process.env.SITE_URL || "https://desa-sukomakmur.vercel.app",
   generateRobotsTxt: true,
   // Halaman yang TIDAK diindeks Google
   exclude: ["/api/*"],
