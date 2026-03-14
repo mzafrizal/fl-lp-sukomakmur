@@ -4,7 +4,7 @@ Allow: /
 Disallow: /api/
 
 # Host
-Host: https://sukomakmur.desa.id
+Host: https://desa-sukomakmur.vercel.app
 
 # Sitemaps
-Sitemap: https://sukomakmur.desa.id/sitemap.xml
+Sitemap: https://desa-sukomakmur.vercel.app/sitemap.xml
